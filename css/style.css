@@ -1,0 +1,246 @@
+* {
+  box-sizing: border-box;
+}
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0px;
+}
+html {
+  background-color: #fff;
+}
+.flx {
+  display: flex;
+  align-items: flex-start;
+}
+.open-sans-regular {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.open-sans-bold {
+  font-family: "Open Sans", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: 700;
+  font-style: normal;
+  font-variation-settings: "wdth" 100;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poppins-semibold {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-style: normal;
+}
+header {
+  background-image: url(../images/hero\ bg\ 2.png);
+  color: #00252e;
+  margin-bottom: 157px;
+  width: 100%;
+ height: 718px;
+}
+header .top {
+  max-width: 1280px;
+  width: 100%;
+  height: 48px;
+  overflow: hidden;
+  justify-content: space-between;
+  padding-top: 48px;
+  padding-right: 80px;
+  padding-left: 80px;
+  padding-bottom: 70px;
+  /* margin-right: 80px;
+  margin-left: 80px; */
+}
+header .top a {
+  width: 200px;
+  height: 48px;
+  background: #ffffff;
+  box-shadow: 0px 3px 11px rgba(0, 0, 0, 0.0954201);
+  border-radius: 24px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transition: 500ms ease-in-out;
+  text-align: center;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 19px;
+  color: #00252e;
+
+  &:hover {
+    font-size: 14px;
+    line-height: 19px;
+    color: #808E9A;
+  }
+}
+
+header .started {
+  max-width: 1270px;
+  height: 480px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: space-between;
+  column-gap: 53px;
+  margin-top: 70px;
+  margin-right: 85px;
+  margin-bottom: 75px;
+  margin-left: 85px;
+}
+header .community {
+  max-width: 536px;
+  height: 321px;
+  color: #00252e;
+  margin-top: 53px;
+  margin-bottom: 75px;
+}
+h1 {
+  font-size: 40px;
+  line-height: 60px;
+  padding-bottom: 32px;
+}
+header .community p {
+  font-size: 18px;
+  line-height: 27px;
+  padding-bottom: 32px;
+}
+header .community a {
+  width: 280px;
+  height: 56px;
+  background: #ff52c1;
+  box-shadow: 2px 3px 6px 1px rgba(255, 82, 193, 0.166185);
+  border-radius: 28px;
+  font-size: 14px;
+  line-height: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  transition: 500ms ease-in-out;
+  text-decoration: none;
+  font-size: 14px;
+  line-height: 19px;
+  text-align: center;
+  color: #ffffff;
+
+  &:hover {
+background: #FF9ADB;
+  }
+}
+header .image-top {
+  /* width: 680px; */
+  max-width: 680px;
+  width: 100%;
+  height: 482px;
+  position: relative;
+}
+header .image-top-a {
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+header .image-top-b {
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(40%) translateX(213%);
+}
+.container {
+  max-width: 1232px;
+  height: 440px;
+  background-color: #fff;
+  box-shadow: 0px 0px 14px rgba(0, 0, 0, 0.07);
+  border-radius: 16px;
+  margin-right: 104px;
+  margin-left: 104px;
+  margin-bottom: 40px;
+  display: flex;
+  /* align-items: center; */
+  justify-content: space-between;
+  position: relative;
+}
+.container h2 {
+  font-size: 28px;
+  line-height: 42px;
+  color: #00252e;
+}
+.container p {
+  font-size: 18px;
+  line-height: 27px;
+  color: #808e9a;
+}
+.text {
+  width: 490px;
+  height: 140px;
+}
+.img-block {
+  width: 400;
+  height: 400;
+  position: relative;
+}
+.together {
+  margin-top: 150px;
+  margin-right: 160px;
+  margin-bottom: 150px;
+  margin-left: 128px;
+}
+.img-together {
+  margin-right: 16px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translateY(-18%) translateX(-3%);
+}
+.conversations {
+  margin-top: 150px;
+  margin-right: 29px;
+  margin-bottom: 150px;
+  margin-left: 155px;
+  order: 1;
+}
+.img-convers {
+  margin-left: 109px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  transform: translateY(20%) translateX(-2%);
+}
+.users {
+  margin-top: 150px;
+  margin-right: 180px;
+  margin-bottom: 150px;
+  margin-left: 120px;
+}
+.img-users {
+  margin-right: 16px;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  transform: translateY(-20%) translateX(-5%);
+}
+footer {
+  background-color: #00252e;
+}
+footer .bottom-menu {
+  max-width: 1240px;
+  height: 210px;
+  background-color: #00252e;
+  color: #fff;
+  margin-top: 144px;
+  margin-right: 78px;
+  margin-bottom: 64px;
+  margin-left: 120px;
+}
