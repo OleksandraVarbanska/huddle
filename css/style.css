@@ -178,6 +178,7 @@ main {
 .container h2 {
   font-size: 28px;
   line-height: 42px;
+  padding-bottom: 16px;
   color: #00252e;
 }
 .container p {
